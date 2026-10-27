@@ -18,9 +18,11 @@ for which a new license (GPL+exception) is in place.
 
 #include "scconfig.h"
 
-#include <QtCore>
-#include <QtGui>
-#include <QtOpenGL>
+#include <QApplication>
+#include <QCursor>
+#include <QKeyEvent>
+#include <QMouseEvent>
+#include <QPoint>
 #include <iostream>
 #include <iomanip>
 #include <fstream>

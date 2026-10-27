@@ -15,10 +15,12 @@ for which a new license (GPL+exception) is in place.
 #ifndef ADAPTERWIDGET_H
 #define ADAPTERWIDGET_H
 
-#include <QtCore>
-#include <QtGui>
-#include <QtOpenGL>
+#include <QColor>
+#include <QKeyEvent>
+#include <QMouseEvent>
 #include <QOpenGLWidget>
+#include <QShowEvent>
+#include <QTimer>
 #include <osgViewer/Viewer>
 #include <osg/Vec3>
 
